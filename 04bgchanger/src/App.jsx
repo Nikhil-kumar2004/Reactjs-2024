@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="w-screen h-screen" style={{backgroundColor:color}}>
-        <div className='flex flex-wrap justify-center'>
+        <div className='flex flex-wrap justify-center' style={{backgroundColor:"white"}}>
         <div onClick={()=>setcolor("Red")}>
           <Button color="Red" />
         </div>
@@ -19,8 +19,8 @@ function App() {
         <div onClick={()=>setcolor("Black")}>
           <Button color="Black" />
         </div>
-        <div onClick={()=>setcolor("White")}>
-          <Button color="White" />
+        <div onClick={()=>setcolor("Grey")}>
+          <Button color="Grey" />
         </div>
         <div onClick={()=>setcolor("Green")}>
           <Button color="Green" />
